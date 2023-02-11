@@ -1,5 +1,6 @@
 body {
     font-family: 'League Spartan', sans-serif;
+    background-color: hsl(0, 0%, 100%);
 }
 
 h1 {
@@ -22,6 +23,32 @@ h1 {
     font-weight: 700;
     font-size: 1.1em;
     color: hsl(300, 43%, 22%);
+}
+
+.container-review .card {
+    background-color: hsl(300, 43%, 22%);
+    width: 22rem;
+    height: 18rem;
+}
+
+.container-review img {
+    width: 3em;
+    height: 3em;
+}
+
+.card-title {
+    font-weight: 700;
+    color: hsl(300, 24%, 96%);
+}
+
+.card-subtitle {
+    color: hsl(333, 80%, 67%);
+    font-weight: 400;
+}
+
+.card-text {
+    color: hsl(300, 24%, 96%);
+    font-weight: 500;
 }
 
 .attribution {
