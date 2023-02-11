@@ -14,6 +14,16 @@ h1 {
     color: hsl(303, 10%, 53%);
 }
 
+.container-rating .container .card-rating {
+    background-color: hsl(300, 24%, 96%);
+}
+
+.reviewer {
+    font-weight: 700;
+    font-size: 1.1em;
+    color: hsl(300, 43%, 22%);
+}
+
 .attribution {
     font-size: 11px;
     text-align: center;
