@@ -36,8 +36,13 @@ h1 {
     height: 3em;
 }
 
+.titles {
+    line-height: 0.3em;
+}
+
 .card-title {
     font-weight: 700;
+    font-size: 1em;
     color: hsl(300, 24%, 96%);
 }
 
