@@ -28,7 +28,7 @@ h1 {
 .container-review .card {
     background-color: hsl(300, 43%, 22%);
     width: 22rem;
-    height: 18rem;
+    height: 17rem;
 }
 
 .container-review img {
@@ -59,8 +59,9 @@ h1 {
 .attribution {
     font-size: 11px;
     text-align: center;
+    color: hsl(333, 80%, 67%);
 }
 
 .attribution a {
-    color: hsl(228, 45%, 44%);
+    color: hsl(300, 43%, 22%);
 }
