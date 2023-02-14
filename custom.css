@@ -65,3 +65,23 @@ h1 {
 .attribution a {
     color: hsl(300, 43%, 22%);
 }
+
+@media (max-width: 991px) {
+    .desktop {
+        display: none;
+    }
+}
+
+@media (min-width: 992px) {
+
+    .mobile {
+        display: none;
+    }
+
+    body {
+        background-image: url("images/bg-pattern-top-desktop.svg"), url("images/bg-pattern-bottom-desktop.svg");
+        background-repeat: no-repeat;
+        object-fit: contain;
+        background-position: top left, bottom left;
+    }
+}
