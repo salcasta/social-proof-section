@@ -84,4 +84,20 @@ h1 {
         object-fit: contain;
         background-position: top left, bottom left;
     }
+
+    .container-heading {
+        margin-top: 10rem;
+    }
+
+    .container-rating .container:nth-of-type(1) {
+        margin-top: -14rem;
+    }
+
+    .card-rating {
+        width: 27rem;
+    }
+
+    .card-one {
+        margin-top: 8rem;
+    }
 }
