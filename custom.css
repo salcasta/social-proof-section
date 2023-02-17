@@ -12,6 +12,7 @@ h1 {
 
 .container-heading p {
     font-weight: 400;
+    font-size: 1em;
     color: hsl(303, 10%, 53%);
 }
 
@@ -85,19 +86,64 @@ h1 {
         background-position: top left, bottom left;
     }
 
+    h1 {
+        font-size: 3.5rem;
+        margin-right: -2rem !important;
+    }
+
     .container-heading {
         margin-top: 10rem;
     }
 
+    .desktop-heading {
+        margin-right: 8rem;
+    }
+
     .container-rating .container:nth-of-type(1) {
-        margin-top: -14rem;
+        margin-top: -16rem;
+        margin-left: 0rem;
+    }
+
+    .container-rating .container:nth-of-type(2) {
+        margin-left: 1rem;
+    }
+
+    .container-rating .container:nth-of-type(3) {
+        margin-left: 2rem;
     }
 
     .card-rating {
         width: 27rem;
     }
 
-    .card-one {
-        margin-top: 8rem;
+    .card-rating-one {
+        margin-right: 4rem;
     }
+
+    .card-rating-two {
+        margin-right: 2rem;
+    }
+
+    .card-one {
+        margin-top: 2rem;
+    }
+
+    .card-two {
+        margin-top: 5rem;
+        margin-right: -5rem;
+    }
+
+    .card-three {
+        margin-top: 6rem;
+    }
+
+    .container-review .card {
+        width: 25rem;
+    }
+
+    .container-review {
+        display: flex;
+        direction: row;
+    }
+
 }
